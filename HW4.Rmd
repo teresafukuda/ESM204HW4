@@ -1,0 +1,22 @@
+---
+title: "HW4"
+author: "Teresa Fukuda"
+date: "5/31/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+#load packages and read in data
+
+library(tidyverse)
+library(stargazer)
+
+abatement_data <- read_csv("HW4Data.csv")
+
+```
+
